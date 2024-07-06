@@ -5,4 +5,72 @@
     font-style: normal;
     font-variation-settings:"wdth" 100;
   }
-  
+  header{
+    background-image:url("../images/developer.png"),url(../images/header_bg.png) ;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 200px;
+  }
+  .nav-titel{
+    font-weight: 800;
+    font-size: 45px;
+  }
+  .color{
+    color: #FD6E0A;
+    ;
+  }
+  nav ul li{
+    list-style: none;
+    margin-right:51px ;
+    
+  }
+  .drack2{
+    color: #474747;
+  }
+  nav li a{
+    text-decoration: none;
+    font-size: 20px;
+  }
+  nav ul{
+    display: flex;
+    align-items: center;
+    
+  }
+  .btn-primary{
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+
+  }
+  .banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .banner-titel{
+    font-weight: bold;
+    font-size: 85px;
+  }
+  .banner-description{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .banner-profail-picture{
+    width: 580px;
+
+  }
+  .banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+  }
+  .banner-contain{
+    max-width: 580px;
+  }
